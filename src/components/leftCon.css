@@ -1,0 +1,78 @@
+.leftContent{
+    background: linear-gradient(#bbbec1, #90959d);
+    width: 10em;
+    border-top-left-radius: 1.1em;
+    border-bottom-left-radius: 1.1em;
+    display: grid;
+    grid-template-rows: 0.5fr 0.7fr 2.5fr 2fr;
+    grid-template-columns: 10em;
+
+}
+
+.searchbar{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar svg{
+    color: #90959d;
+}
+
+.textarea{
+    background-color: #ebf0f5;
+    border: none;
+    border-bottom-left-radius: 2em;
+    border-top-left-radius: 2em;
+    width: 9.5em;
+    height: 1.2em
+}
+
+.textButton{
+    background-color: #ebf0f5;
+    width: 1.1em;
+    height: 1.1em;
+    border-bottom-right-radius: 2em;
+    border-top-right-radius: 2em;
+}
+
+.textarea:focus{
+   outline: none;
+}
+
+.location{
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-left: 0.2em;
+    font-size: 2em;
+}
+
+.weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.weatherIcon{
+    width: 4em;
+}
+
+.wind{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.windTitle{
+    font-size: 1.5em;
+    
+}

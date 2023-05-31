@@ -1,0 +1,47 @@
+.rightContent{
+    background: linear-gradient(#ebf0f5, #cfd3d7);
+    width: 50%;
+    border-top-right-radius: 1.1em;
+    border-bottom-right-radius: 1.1em;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 10em;
+}
+
+.time{
+    color: #90959d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeDate{
+    font-size: 1em;
+}
+
+.timeTime{
+    font-size: 3em;
+}
+
+.temp{
+    color: #90959d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+}
+
+.tempTitle{
+    font-size: 0.4em;
+}
+
+.tempFeel{
+    color: #90959d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+}
